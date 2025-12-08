@@ -1,34 +1,107 @@
-from load import get_wikipedia_table_data
+from load import load_mpx_research_data, load_celiac_data, load_infant_breastfeeding_data
 import pandas as pd
+import numpy as np
 
-def process_wiki_data(wiki_url:str)-> pd.DataFrame:
-    # Note: The table index (e.g., 0) might change if Wikipedia updates the page
-    # 0 is usually the main table.
-    wiki_df = get_wikipedia_table_data(wiki_url, table_index=0)
-    if wiki_df is not None:
-        print("\nWikipedia (Largest Companies) Data Head:")
-        print(wiki_df.head())
 
-        # We need to clean this data before plotting, as it's messy
-        # For example, revenue is a string like "$3,171 million"
-        # This is a common next step in data science.
-        # Let's try to clean one column for plotting
-        try:
-            # Let's clean the 'Employees' column
-            if 'Employees' in wiki_df.columns:
-                # Remove commas, then convert to numeric
-                wiki_df['Employees_numeric'] = wiki_df['Employees'].astype(str).replace(',', '', regex=False)
-                # Handle non-numeric entries by coercing them to NaN
-                wiki_df['Employees_numeric'] = pd.to_numeric(wiki_df['Employees_numeric'], errors='coerce')
-                # Create a new, cleaner DataFrame for plotting
-                plot_df = pd.DataFrame({
-                    'Employees': wiki_df['Employees_numeric'],
-                    'Industry': wiki_df['Industry']['Industry']
-                })
-                return plot_df
-            else:
-                print("Could not find 'Employees' column for plotting.")
-        except Exception as e:
-            print(f"Could not clean/plot Wikipedia data: {e}")
+def process_mpx_research_data(mpx_df: pd.DataFrame) -> pd.DataFrame:
+    """Cleans and processes Monkeypox research data from healthdata.gov"""
+    if mpx_df is None or mpx_df.empty:
+        return pd.DataFrame()
 
-    return pd.DataFrame()
+    print("\nMonkeypox Research Data Head:")
+    print(mpx_df.head())
+
+    # Cleans key columns for analysis
+    processed_df = mpx_df.copy()
+
+    # Cleans 'Topic' column
+    processed_df['Topic'] = processed_df['Topic'].str.strip()
+
+    # Extracts agency from 'Agency and Office Name'
+    processed_df['Agency'] = processed_df['Agency and Office Name'].str.split('/').str[0].str.strip()
+
+    # Cleans 'Status' column
+    processed_df['Status'] = processed_df['Status'].str.strip()
+
+    # Creates a summary by Topic and Status
+    summary_df = processed_df.groupby(['Topic', 'Status', 'Agency']).size().reset_index(name='Count')
+
+    print("\nMPX Research Summary by Topic/Status:")
+    print(summary_df.head())
+
+    return summary_df
+
+
+def process_celiac_data(celiac_df: pd.DataFrame) -> pd.DataFrame:
+    """Cleans and processes Celiac disease data from Kaggle"""
+    if celiac_df is None or celiac_df.empty:
+        return pd.DataFrame()
+
+    print("\nCeliac Disease Data Head:")
+    print(celiac_df.head())
+
+    # Common cleaning for typical celiac datasets
+    processed_df = celiac_df.copy()
+
+    # Cleans numeric columns
+    numeric_cols = processed_df.select_dtypes(include=['object']).columns
+    for col in processed_df.columns:
+        if processed_df[col].dtype == 'object':
+            processed_df[col] = processed_df[col].astype(str).str.strip()
+
+    # Handles missing values
+    processed_df = processed_df.dropna()
+
+    print(f"\nCeliac data shape after cleaning: {processed_df.shape}")
+    return processed_df
+
+
+def process_infant_data(infant_df: pd.DataFrame) -> pd.DataFrame:
+    """Cleans and processes infant breastfeeding/weight data from Kaggle"""
+    if infant_df is None or infant_df.empty:
+        return pd.DataFrame()
+
+    print("\nInfant Breastfeeding Data Head:")
+    print(infant_df.head())
+
+    processed_df = infant_df.copy()
+
+    # Cleans weight/height columns
+    weight_cols = [col for col in processed_df.columns if 'weight' in col.lower() or 'wt' in col.lower()]
+    height_cols = [col for col in processed_df.columns if 'height' in col.lower() or 'length' in col.lower()]
+    breast_cols = [col for col in processed_df.columns if 'breast' in col.lower() or 'feed' in col.lower()]
+
+    # Converts numeric columns
+    for col in processed_df.select_dtypes(include=['object']).columns:
+        processed_df[col] = pd.to_numeric(processed_df[col], errors='coerce')
+
+    # Handles missing values
+    processed_df = processed_df.dropna()
+
+    print(f"\nInfant data shape after cleaning: {processed_df.shape}")
+    print("Weight columns found:", weight_cols)
+    print("Breastfeeding columns found:", breast_cols)
+
+    return processed_df
+
+
+# --- MAIN PROCESSING FUNCTIONS ---
+
+def load_and_process_all_data():
+    """Loads and processes all three datasets for the project"""
+    print("=== Loading and Processing All Datasets ===\n")
+
+    # Loads raw data
+    mpx_df = load_mpx_research_data()
+    celiac_df = load_celiac_data()
+    infant_df = load_infant_breastfeeding_data()
+
+    # Processes each dataset
+    mpx_processed = process_mpx_research_data(mpx_df)
+    celiac_processed = process_celiac_data(celiac_df)
+    infant_processed = process_infant_data(infant_df)
+
+    return {
+        'mpx_research': mpx_processed,
+        'celiac': celiac_processed,
+        'infant_breastfeeding': infant_processed}

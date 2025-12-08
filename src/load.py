@@ -1,46 +1,53 @@
 import os
-# os.environ["KAGGLE_CONFIG_DIR"] = "/home/alexey/"
+from pathlib import Path
 import kaggle
 import pandas as pd
 import requests
 
-# --- 1. DOWNLOAD DATA FROM KAGGLE ---
+# Loads config from .env
+from config import DATA_DIR, MPX_RESEARCH_URL, CELIAC_DATASET_SLUG, INFANT_DATASET_SLUG
 
-def get_kaggle_data(dataset_slug, extract_dir='kaggle_data'):
+# Ensures data directory exists
+data_path = Path(DATA_DIR)
+data_path.mkdir(parents=True, exist_ok=True)
+
+
+# --- 1. DOWNLOADS DATA FROM KAGGLE ---
+
+def get_kaggle_data(dataset_slug, extract_dir=None):
     """
     Downloads a specific file from a Kaggle dataset, extracts it,
     and loads it into a pandas DataFrame.
 
-    :param dataset_slug: The slug of the dataset (e.g., 'titanic')
-    :param extract_dir: Directory to extract files into
+    :param dataset_slug: The slug of the dataset (e.g., 'jackwin07/celiac-disease-coeliac-disease')
+    :param extract_dir: Directory to extract files into (defaults to DATA_DIR/kaggle/{slug})
     :return: pandas DataFrame or None
     """
+    if extract_dir is None:
+        extract_dir = data_path / 'kaggle' / dataset_slug.replace('/', '_')
+
     print(f"--- Loading data from Kaggle: {dataset_slug} ---")
     try:
-        # Ensure extraction directory exists
-        os.makedirs(extract_dir, exist_ok=True)
+        # Ensures extraction directory exists
+        extract_dir.mkdir(parents=True, exist_ok=True)
 
         print(f"Downloading {dataset_slug}...")
         kaggle.api.dataset_download_files(dataset_slug, path=extract_dir, unzip=True)
 
-        csv_file_path = [f for f in os.listdir(extract_dir) if os.path.isfile(os.path.join(extract_dir, f))][0]
-        csv_file_path = os.path.join(extract_dir, csv_file_path) # make it a full path
-        # Load the extracted CSV into a DataFrame
-        if os.path.exists(csv_file_path):
-            print(f"Loading {csv_file_path} into DataFrame...")
-            df = pd.read_csv(csv_file_path)
-            print("Kaggle data loaded successfully.")
-            return df
-        else:
-            print(f"Error: Could not find extracted file {csv_file_path}")
-            return None
+        csv_file_path = [f for f in extract_dir.iterdir() if f.suffix == '.csv'][0]
+
+        # Loads the extracted CSV into a DataFrame
+        print(f"Loading {csv_file_path} into DataFrame...")
+        df = pd.read_csv(csv_file_path)
+        print("Kaggle data loaded successfully.")
+        return df
 
     except Exception as e:
         print(f"Error loading data from Kaggle: {e}")
         return None
 
 
-# --- 2. DOWNLOAD FILE FROM WEB ---
+# --- 2. DOWNLOADS FILE FROM WEB ---
 
 def get_web_csv_data(url):
     """
@@ -60,48 +67,18 @@ def get_web_csv_data(url):
         return None
 
 
-# --- 3. SCRAPE DATA FROM WEBPAGE (WIKIPEDIA) ---
-def get_wikipedia_table_data(url, table_index=0):
-    """
-    Scrapes a specific table from a Wikipedia page into a pandas DataFrame.
+# --- MAIN LOADER FUNCTIONS FOR THE PROJECT ---
 
-    MODIFIED: Added a User-Agent header to prevent 403 Forbidden errors.
+def load_mpx_research_data():
+    """Load Monkeypox research data from healthdata.gov"""
+    return get_web_csv_data(MPX_RESEARCH_URL)
 
-    :param url: The URL of the Wikipedia page
-    :param table_index: The 0-based index of the table to scrape
-    :return: pandas DataFrame or None
-    """
-    print(f"--- Scraping table from Wikipedia: {url[:50]}... ---")
 
-    # Set a User-Agent to mimic a real browser
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-    }
+def load_celiac_data():
+    """Load Celiac disease data from Kaggle"""
+    return get_kaggle_data(CELIAC_DATASET_SLUG)
 
-    try:
-        # Use requests to get the page with the headers
-        response = requests.get(url, headers=headers)
 
-        # Check if the request was successful
-        if response.status_code != 200:
-            print(f"Error: Received status code {response.status_code}. Unable to fetch page.")
-            return None
-
-        # Pass the HTML content (response.text) to pandas
-        # It returns a LIST of DataFrames (all tables on the page)
-        tables = pd.read_html(response.text, flavor='bs4')
-
-        if tables:
-            print(f"Found {len(tables)} tables. Extracting table at index {table_index}...")
-            # We select the specific table we want
-            df = tables[table_index]
-            print("Wikipedia table scraped successfully.")
-            return df
-        else:
-            print("No tables found on the page.")
-            return None
-
-    except Exception as e:
-        print(f"Error scraping Wikipedia table: {e}")
-        return None
-
+def load_infant_breastfeeding_data():
+    """Load infant breastfeeding/weight data from Kaggle"""
+    return get_kaggle_data(INFANT_DATASET_SLUG)

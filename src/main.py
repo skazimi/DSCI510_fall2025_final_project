@@ -1,35 +1,41 @@
 import os
-from config import DATA_DIR, RESULTS_DIR, TITANIC_DATASET_SLUG, WIKI_LARGEST_COMPANIES, IRIS_URL
-from load import get_kaggle_data, get_web_csv_data
+from config import DATA_DIR, RESULTS_DIR, MPX_RESEARCH_URL, CELIAC_DATASET_SLUG, INFANT_DATASET_SLUG
+from load import load_mpx_research_data, load_celiac_data, load_infant_breastfeeding_data
 from analyze import plot_statistics
-from process import process_wiki_data
 
 if __name__ == "__main__":
-    # Create a data directory
+    # Creates directories
     os.makedirs(DATA_DIR, exist_ok=True)
+    os.makedirs(RESULTS_DIR, exist_ok=True)
 
-    # --- Kaggle Data ---
-    # We'll use the classic Titanic dataset
-    kaggle_df = get_kaggle_data(dataset_slug=TITANIC_DATASET_SLUG, extract_dir=DATA_DIR)
-    if kaggle_df is not None:
-        print(f"\nKaggle (Titanic) Data Head:\n{kaggle_df.head()}")
-        plot_statistics(kaggle_df, 'Titanic', result_dir=RESULTS_DIR)
-    print("\n" + "=" * 50 + "\n")
+    print("Starting Breastfeeding & Gluten Sensitivity Data Analysis Pipeline\n")
 
-    # --- Web CSV Data ---
-    # We'll use the Iris dataset from a public repo
-    web_df = get_web_csv_data(IRIS_URL)
-    if web_df is not None:
-        print(f"\nWeb (Iris) Data Head:\n{web_df.head()}")
-        plot_statistics(web_df, 'Iris', result_dir=RESULTS_DIR)
-    print("\n" + "=" * 50 + "\n")
+    # --- 1. MPX Research Data (healthdata.gov) ---
+    print("Loading MPX Research Data...")
+    mpx_df = load_mpx_research_data()
+    if mpx_df is not None:
+        print(f"MPX Research Data Shape: {mpx_df.shape}")
+        print(mpx_df.head())
+        plot_statistics(mpx_df, 'MPX_Research', result_dir=RESULTS_DIR)
+    print("\n" + "=" * 60 + "\n")
 
-    # --- Wikipedia Scraped Data ---
-    # We'll scrape a table of the largest companies
-    # process data firsts
-    plot_df = process_wiki_data(WIKI_LARGEST_COMPANIES)
-    # plot results
-    plot_statistics(plot_df.dropna(), 'Wikipedia_Companies', result_dir=RESULTS_DIR)
-    print("\n" + "=" * 50 + "\n")
+    # --- 2. Celiac Disease Data (Kaggle) ---
+    print("Loading Celiac Disease Data...")
+    celiac_df = load_celiac_data()
+    if celiac_df is not None:
+        print(f"Celiac Disease Data Shape: {celiac_df.shape}")
+        print(celiac_df.head())
+        plot_statistics(celiac_df, 'Celiac_Disease', result_dir=RESULTS_DIR)
+    print("\n" + "=" * 60 + "\n")
 
-    print("\n--- Data collection and plotting complete. Check the 'results' directory. ---")
+    # --- 3. Infant Breastfeeding & Weight Data (Kaggle) ---
+    print("Loading Infant Breastfeeding Data...")
+    infant_df = load_infant_breastfeeding_data()
+    if infant_df is not None:
+        print(f"Infant Breastfeeding Data Shape: {infant_df.shape}")
+        print(infant_df.head())
+        plot_statistics(infant_df, 'Infant_Breastfeeding', result_dir=RESULTS_DIR)
+    print("\n" + "=" * 60 + "\n")
+
+    print("--- Breastfeeding & Gluten Sensitivity Analysis Complete! ---")
+    print(f"Check '{RESULTS_DIR}' directory for plots and visualizations.")

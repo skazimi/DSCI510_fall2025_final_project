@@ -1,16 +1,17 @@
 from pathlib import Path
 from dotenv import load_dotenv
+import os
 
 # project configuration from .env (secret part)
 env_path = Path(__file__).resolve().parent / '.env'
 load_dotenv(dotenv_path=env_path)  # loads into os.environ
 
-# project configuration
-DATA_DIR = "../data"
-RESULTS_DIR = "../results"
+# project directories from .env
+DATA_DIR = os.getenv("DATA_DIR", "data")
+RESULTS_DIR = os.getenv("RESULTS_DIR", "results")
+DOC_DIR = os.getenv("DOC_DIR", "doc")
 
 # data sources configuration
-IRIS_URL = 'https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/0e7a9b0a5d22642a06d3d5b9bcbad9890c8ee534/iris.csv'
-TITANIC_DATASET_SLUG = 'yasserh/titanic-dataset'
-WIKI_LARGEST_COMPANIES = 'https://en.wikipedia.org/wiki/List_of_largest_companies_by_revenue'
-
+MPX_RESEARCH_URL = 'https://healthdata.gov/api/views/x7kq-cyv4/rows.csv'
+CELIAC_DATASET_SLUG = 'jackwin07/celiac-disease-coeliac-disease'
+INFANT_DATASET_SLUG = 'chidirolex/weightheight-and-breastfeeding-pattern-of-infants'
