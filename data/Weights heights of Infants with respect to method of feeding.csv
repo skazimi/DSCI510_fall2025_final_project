@@ -1,0 +1,721 @@
+S/n,Weight,Height,Month,Breastfeeding Partern
+1,4,17,Month 1,Exclusive Breastfeeding
+2,4.9,18.5,Month 1,Exclusive Breastfeeding
+3,5.2,16,Month 1,Exclusive Breastfeeding
+4,4.5,18,Month 1,Exclusive Breastfeeding
+5,5.5,19,Month 1,Exclusive Breastfeeding
+6,5.9,19.5,Month 1,Exclusive Breastfeeding
+7,3.7,17,Month 1,Exclusive Breastfeeding
+8,4.8,16.8,Month 1,Exclusive Breastfeeding
+9,4.6,16,Month 1,Exclusive Breastfeeding
+10,3.4,18,Month 1,Exclusive Breastfeeding
+11,5.5,18.5,Month 1,Exclusive Breastfeeding
+12,5,20,Month 1,Exclusive Breastfeeding
+13,5.9,17.5,Month 1,Exclusive Breastfeeding
+14,5.8,16.5,Month 1,Exclusive Breastfeeding
+15,5,20.5,Month 1,Exclusive Breastfeeding
+16,5,20.5,Month 1,Exclusive Breastfeeding
+17,5.8,16.5,Month 1,Exclusive Breastfeeding
+18,5.9,17.5,Month 1,Exclusive Breastfeeding
+19,5,20,Month 1,Exclusive Breastfeeding
+20,5.5,18.5,Month 1,Exclusive Breastfeeding
+21,3.5,18,Month 1,Exclusive Breastfeeding
+22,4.6,16,Month 1,Exclusive Breastfeeding
+23,4.8,16.8,Month 1,Exclusive Breastfeeding
+24,3.7,17,Month 1,Exclusive Breastfeeding
+25,5.9,19.5,Month 1,Exclusive Breastfeeding
+26,5.5,19,Month 1,Exclusive Breastfeeding
+27,4.5,18,Month 1,Exclusive Breastfeeding
+28,5.2,16,Month 1,Exclusive Breastfeeding
+29,4.9,18.5,Month 1,Exclusive Breastfeeding
+30,4,17,Month 1,Exclusive Breastfeeding
+31,5.6,18.5,Month 2,Exclusive Breastfeeding
+32,5.4,19,Month 2,Exclusive Breastfeeding
+33,5.8,17.5,Month 2,Exclusive Breastfeeding
+34,5.5,19.5,Month 2,Exclusive Breastfeeding
+35,6.5,20,Month 2,Exclusive Breastfeeding
+36,6.2,20.5,Month 2,Exclusive Breastfeeding
+37,5,18,Month 2,Exclusive Breastfeeding
+38,5.7,17.5,Month 2,Exclusive Breastfeeding
+39,5.7,16.5,Month 2,Exclusive Breastfeeding
+40,4.3,19,Month 2,Exclusive Breastfeeding
+41,6.4,19.5,Month 2,Exclusive Breastfeeding
+42,5.6,20.5,Month 2,Exclusive Breastfeeding
+43,6.2,18.5,Month 2,Exclusive Breastfeeding
+44,6.4,17,Month 2,Exclusive Breastfeeding
+45,7,21,Month 2,Exclusive Breastfeeding
+46,7,21,Month 2,Exclusive Breastfeeding
+47,6.4,17,Month 2,Exclusive Breastfeeding
+48,6.2,18.5,Month 2,Exclusive Breastfeeding
+49,5.6,20.5,Month 2,Exclusive Breastfeeding
+50,6.4,19.5,Month 2,Exclusive Breastfeeding
+51,4.3,19,Month 2,Exclusive Breastfeeding
+52,5.7,16.5,Month 2,Exclusive Breastfeeding
+53,5.7,17.5,Month 2,Exclusive Breastfeeding
+54,5,18,Month 2,Exclusive Breastfeeding
+55,6.2,20.5,Month 2,Exclusive Breastfeeding
+56,6.5,20,Month 2,Exclusive Breastfeeding
+57,5.5,19.5,Month 2,Exclusive Breastfeeding
+58,5.8,17.5,Month 2,Exclusive Breastfeeding
+59,5.4,19,Month 2,Exclusive Breastfeeding
+60,5.6,18.5,Month 2,Exclusive Breastfeeding
+61,6.2,19,Month 3,Exclusive Breastfeeding
+62,5.9,20,Month 3,Exclusive Breastfeeding
+63,5.6,18.5,Month 3,Exclusive Breastfeeding
+64,4.8,19.5,Month 3,Exclusive Breastfeeding
+65,5.7,20.5,Month 3,Exclusive Breastfeeding
+66,7,21,Month 3,Exclusive Breastfeeding
+67,5.3,19,Month 3,Exclusive Breastfeeding
+68,6,18,Month 3,Exclusive Breastfeeding
+69,5.4,17,Month 3,Exclusive Breastfeeding
+70,5.5,20.3,Month 3,Exclusive Breastfeeding
+71,7.5,20,Month 3,Exclusive Breastfeeding
+72,6.4,21.5,Month 3,Exclusive Breastfeeding
+73,7.1,19.2,Month 3,Exclusive Breastfeeding
+74,7.6,18.3,Month 3,Exclusive Breastfeeding
+75,7.5,21.5,Month 3,Exclusive Breastfeeding
+76,7.5,21.5,Month 3,Exclusive Breastfeeding
+77,7.6,18.3,Month 3,Exclusive Breastfeeding
+78,7.1,19.2,Month 3,Exclusive Breastfeeding
+79,6.4,21.5,Month 3,Exclusive Breastfeeding
+80,7.5,20,Month 3,Exclusive Breastfeeding
+81,5.5,20.3,Month 3,Exclusive Breastfeeding
+82,5.4,17,Month 3,Exclusive Breastfeeding
+83,6,18,Month 3,Exclusive Breastfeeding
+84,5.3,19,Month 3,Exclusive Breastfeeding
+85,7,21,Month 3,Exclusive Breastfeeding
+86,5.7,20.5,Month 3,Exclusive Breastfeeding
+87,4.8,19.5,Month 3,Exclusive Breastfeeding
+88,5.6,18.5,Month 3,Exclusive Breastfeeding
+89,5.9,20,Month 3,Exclusive Breastfeeding
+90,6.2,19,Month 3,Exclusive Breastfeeding
+91,6.2,20.5,Month 4,Exclusive Breastfeeding
+92,5.6,21.8,Month 4,Exclusive Breastfeeding
+93,6,18.8,Month 4,Exclusive Breastfeeding
+94,5.3,20,Month 4,Exclusive Breastfeeding
+95,6.2,21.8,Month 4,Exclusive Breastfeeding
+96,6.9,22.3,Month 4,Exclusive Breastfeeding
+97,5.8,19.8,Month 4,Exclusive Breastfeeding
+98,5.9,18.5,Month 4,Exclusive Breastfeeding
+99,5.9,18,Month 4,Exclusive Breastfeeding
+100,5.9,21.7,Month 4,Exclusive Breastfeeding
+101,7.7,20.8,Month 4,Exclusive Breastfeeding
+102,7,22.2,Month 4,Exclusive Breastfeeding
+103,8,19.5,Month 4,Exclusive Breastfeeding
+104,7.8,18.8,Month 4,Exclusive Breastfeeding
+105,8,22.3,Month 4,Exclusive Breastfeeding
+106,8,22.3,Month 4,Exclusive Breastfeeding
+107,7.8,18.8,Month 4,Exclusive Breastfeeding
+108,8,19.5,Month 4,Exclusive Breastfeeding
+109,7,22.2,Month 4,Exclusive Breastfeeding
+110,7.7,20.8,Month 4,Exclusive Breastfeeding
+111,5.9,21.7,Month 4,Exclusive Breastfeeding
+112,5.9,18,Month 4,Exclusive Breastfeeding
+113,5.9,18.5,Month 4,Exclusive Breastfeeding
+114,5.8,19.8,Month 4,Exclusive Breastfeeding
+115,6.9,22.3,Month 4,Exclusive Breastfeeding
+116,6.2,21.8,Month 4,Exclusive Breastfeeding
+117,5.3,20,Month 4,Exclusive Breastfeeding
+118,6,18.8,Month 4,Exclusive Breastfeeding
+119,5.6,21.8,Month 4,Exclusive Breastfeeding
+120,6.2,20.5,Month 4,Exclusive Breastfeeding
+121,7,21,Month 5,Exclusive Breastfeeding
+122,5.8,22,Month 5,Exclusive Breastfeeding
+123,5.8,19,Month 5,Exclusive Breastfeeding
+124,5.8,20.8,Month 5,Exclusive Breastfeeding
+125,6,22.1,Month 5,Exclusive Breastfeeding
+126,7.2,23.4,Month 5,Exclusive Breastfeeding
+127,6.7,20.7,Month 5,Exclusive Breastfeeding
+128,6.7,19.2,Month 5,Exclusive Breastfeeding
+129,6.7,18.3,Month 5,Exclusive Breastfeeding
+130,6,22.1,Month 5,Exclusive Breastfeeding
+131,8,21.3,Month 5,Exclusive Breastfeeding
+132,6.9,23.1,Month 5,Exclusive Breastfeeding
+133,8.2,20,Month 5,Exclusive Breastfeeding
+134,8,19.2,Month 5,Exclusive Breastfeeding
+135,8,23.4,Month 5,Exclusive Breastfeeding
+136,8,23.4,Month 5,Exclusive Breastfeeding
+137,8,19.2,Month 5,Exclusive Breastfeeding
+138,8.2,20,Month 5,Exclusive Breastfeeding
+139,6.9,23.1,Month 5,Exclusive Breastfeeding
+140,8,21.3,Month 5,Exclusive Breastfeeding
+141,6,22.1,Month 5,Exclusive Breastfeeding
+142,6.7,18.3,Month 5,Exclusive Breastfeeding
+143,6.7,19.2,Month 5,Exclusive Breastfeeding
+144,6.7,20.7,Month 5,Exclusive Breastfeeding
+145,7.2,23.4,Month 5,Exclusive Breastfeeding
+146,6,22.1,Month 5,Exclusive Breastfeeding
+147,5.8,20.8,Month 5,Exclusive Breastfeeding
+148,5.8,19,Month 5,Exclusive Breastfeeding
+149,5.8,22,Month 5,Exclusive Breastfeeding
+150,7,21,Month 5,Exclusive Breastfeeding
+151,7.2,22.5,Month 6,Exclusive Breastfeeding
+152,6.1,22.7,Month 6,Exclusive Breastfeeding
+153,6.2,20.8,Month 6,Exclusive Breastfeeding
+154,6,21.7,Month 6,Exclusive Breastfeeding
+155,6,23.1,Month 6,Exclusive Breastfeeding
+156,7.8,24.5,Month 6,Exclusive Breastfeeding
+157,6,21.9,Month 6,Exclusive Breastfeeding
+158,7.3,20.3,Month 6,Exclusive Breastfeeding
+159,7.5,19.8,Month 6,Exclusive Breastfeeding
+160,6.2,23.8,Month 6,Exclusive Breastfeeding
+161,8.2,22.4,Month 6,Exclusive Breastfeeding
+162,7.2,24.8,Month 6,Exclusive Breastfeeding
+163,8.2,21.5,Month 6,Exclusive Breastfeeding
+164,9.2,20.8,Month 6,Exclusive Breastfeeding
+165,8.5,24.5,Month 6,Exclusive Breastfeeding
+166,8.5,24.5,Month 6,Exclusive Breastfeeding
+167,9.2,20.8,Month 6,Exclusive Breastfeeding
+168,8.2,21.5,Month 6,Exclusive Breastfeeding
+169,7.2,24.8,Month 6,Exclusive Breastfeeding
+170,8.2,22.4,Month 6,Exclusive Breastfeeding
+171,6.2,23.8,Month 6,Exclusive Breastfeeding
+172,7.5,19.8,Month 6,Exclusive Breastfeeding
+173,7.3,20.3,Month 6,Exclusive Breastfeeding
+174,6,21.9,Month 6,Exclusive Breastfeeding
+175,7.8,24.5,Month 6,Exclusive Breastfeeding
+176,6,23.1,Month 6,Exclusive Breastfeeding
+177,6,21.7,Month 6,Exclusive Breastfeeding
+178,6.2,20.8,Month 6,Exclusive Breastfeeding
+179,6.1,22.7,Month 6,Exclusive Breastfeeding
+180,7.2,22.7,Month 6,Exclusive Breastfeeding
+181,4.8,17,Month 1,Breastfeeding and water
+182,3.8,18.5,Month 1,Breastfeeding and water
+183,3.5,19.3,Month 1,Breastfeeding and water
+184,4.8,19,Month 1,Breastfeeding and water
+185,4.6,16,Month 1,Breastfeeding and water
+186,5.5,15,Month 1,Breastfeeding and water
+187,5,15.5,Month 1,Breastfeeding and water
+188,3.9,16.8,Month 1,Breastfeeding and water
+189,4.9,19.4,Month 1,Breastfeeding and water
+190,4.6,17.5,Month 1,Breastfeeding and water
+191,4.7,20.5,Month 1,Breastfeeding and water
+192,5,18.7,Month 1,Breastfeeding and water
+193,4,17.2,Month 1,Breastfeeding and water
+194,4.6,19,Month 1,Breastfeeding and water
+195,3.3,19.1,Month 1,Breastfeeding and water
+196,3.3,19.1,Month 1,Breastfeeding and water
+197,4.6,19,Month 1,Breastfeeding and water
+198,4,17.2,Month 1,Breastfeeding and water
+199,5,18.7,Month 1,Breastfeeding and water
+200,4.7,20.5,Month 1,Breastfeeding and water
+201,4.6,17.5,Month 1,Breastfeeding and water
+202,4.9,19.4,Month 1,Breastfeeding and water
+203,3.9,16.8,Month 1,Breastfeeding and water
+204,5,15.5,Month 1,Breastfeeding and water
+205,5.5,15,Month 1,Breastfeeding and water
+206,4.6,16,Month 1,Breastfeeding and water
+207,4.8,19,Month 1,Breastfeeding and water
+208,3.5,19.3,Month 1,Breastfeeding and water
+209,3.8,18.5,Month 1,Breastfeeding and water
+210,4.8,17,Month 1,Breastfeeding and water
+211,5.2,18.2,Month 2,Breastfeeding and water
+212,4.5,19,Month 2,Breastfeeding and water
+213,5.1,21,Month 2,Breastfeeding and water
+214,5.5,20,Month 2,Breastfeeding and water
+215,5.7,17.5,Month 2,Breastfeeding and water
+216,7.5,16.5,Month 2,Breastfeeding and water
+217,6,17.8,Month 2,Breastfeeding and water
+218,4.5,17.2,Month 2,Breastfeeding and water
+219,6,20,Month 2,Breastfeeding and water
+220,5.2,18.5,Month 2,Breastfeeding and water
+221,5.7,21,Month 2,Breastfeeding and water
+222,7.5,19.6,Month 2,Breastfeeding and water
+223,5.2,18.5,Month 2,Breastfeeding and water
+224,6,20,Month 2,Breastfeeding and water
+225,4.4,20,Month 2,Breastfeeding and water
+226,4.4,20,Month 2,Breastfeeding and water
+227,6,20,Month 2,Breastfeeding and water
+228,5.2,18.5,Month 2,Breastfeeding and water
+229,7.5,19.6,Month 2,Breastfeeding and water
+230,5.7,21,Month 2,Breastfeeding and water
+231,5.2,18.5,Month 2,Breastfeeding and water
+232,6,20,Month 2,Breastfeeding and water
+233,4.5,17.2,Month 2,Breastfeeding and water
+234,6,17.8,Month 2,Breastfeeding and water
+235,7.5,16.5,Month 2,Breastfeeding and water
+236,5.7,17.5,Month 2,Breastfeeding and water
+237,5.5,20,Month 2,Breastfeeding and water
+238,5.1,21,Month 2,Breastfeeding and water
+239,4.5,19,Month 2,Breastfeeding and water
+240,5.2,18.2,Month 2,Breastfeeding and water
+241,6.1,20,Month 3,Breastfeeding and water
+242,5.3,20,Month 3,Breastfeeding and water
+243,6.1,21.3,Month 3,Breastfeeding and water
+244,6.1,21.3,Month 3,Breastfeeding and water
+245,5.9,18.1,Month 3,Breastfeeding and water
+246,7,17.3,Month 3,Breastfeeding and water
+247,6.5,18,Month 3,Breastfeeding and water
+248,6,17.5,Month 3,Breastfeeding and water
+249,6.5,20.9,Month 3,Breastfeeding and water
+250,6,18.9,Month 3,Breastfeeding and water
+251,6.1,22.8,Month 3,Breastfeeding and water
+252,8,20.3,Month 3,Breastfeeding and water
+253,6.3,19,Month 3,Breastfeeding and water
+254,6.1,21.8,Month 3,Breastfeeding and water
+255,5,21,Month 3,Breastfeeding and water
+256,5,21,Month 3,Breastfeeding and water
+257,6.1,21.8,Month 3,Breastfeeding and water
+258,6.3,19,Month 3,Breastfeeding and water
+259,8,20.3,Month 3,Breastfeeding and water
+260,6.1,22.8,Month 3,Breastfeeding and water
+261,6,18.9,Month 3,Breastfeeding and water
+262,6.5,20.9,Month 3,Breastfeeding and water
+263,6,17.5,Month 3,Breastfeeding and water
+264,6.5,18,Month 3,Breastfeeding and water
+265,7,17.3,Month 3,Breastfeeding and water
+266,5.9,18.1,Month 3,Breastfeeding and water
+267,6.1,21.3,Month 3,Breastfeeding and water
+268,6.1,21.3,Month 3,Breastfeeding and water
+269,5.3,20,Month 3,Breastfeeding and water
+270,6.1,20,Month 3,Breastfeeding and water
+271,7.2,21.3,Month 4,Breastfeeding and water
+272,6.6,21.3,Month 4,Breastfeeding and water
+273,7.5,21.8,Month 4,Breastfeeding and water
+274,7.5,21.9,Month 4,Breastfeeding and water
+275,7.8,18.5,Month 4,Breastfeeding and water
+276,8.1,18,Month 4,Breastfeeding and water
+277,6.2,18.5,Month 4,Breastfeeding and water
+278,5.6,18.5,Month 4,Breastfeeding and water
+279,6,21.2,Month 4,Breastfeeding and water
+280,6.3,19.3,Month 4,Breastfeeding and water
+281,6.8,23,Month 4,Breastfeeding and water
+282,7.5,20.8,Month 4,Breastfeeding and water
+283,6,20.5,Month 4,Breastfeeding and water
+284,6.2,22.8,Month 4,Breastfeeding and water
+285,6,22.3,Month 4,Breastfeeding and water
+286,6,22.3,Month 4,Breastfeeding and water
+287,6.2,22.8,Month 4,Breastfeeding and water
+288,6,20.5,Month 4,Breastfeeding and water
+289,7.5,20.8,Month 4,Breastfeeding and water
+290,6.8,23,Month 4,Breastfeeding and water
+291,6.3,19.3,Month 4,Breastfeeding and water
+292,6,21.2,Month 4,Breastfeeding and water
+293,5.6,18.5,Month 4,Breastfeeding and water
+294,6.2,18.5,Month 4,Breastfeeding and water
+295,8.1,18,Month 4,Breastfeeding and water
+296,7.8,18.5,Month 4,Breastfeeding and water
+297,7.5,21.9,Month 4,Breastfeeding and water
+298,7.5,21.8,Month 4,Breastfeeding and water
+299,6.6,21.3,Month 4,Breastfeeding and water
+300,7.2,21.3,Month 4,Breastfeeding and water
+301,7.1,22.6,Month 5,Breastfeeding and water
+302,7.1,21.8,Month 5,Breastfeeding and water
+303,7.2,22.6,Month 5,Breastfeeding and water
+304,7,22.5,Month 5,Breastfeeding and water
+305,7.1,19,Month 5,Breastfeeding and water
+306,8.5,18.5,Month 5,Breastfeeding and water
+307,7.8,19.2,Month 5,Breastfeeding and water
+308,6.8,19,Month 5,Breastfeeding and water
+309,6.6,21.8,Month 5,Breastfeeding and water
+310,7.3,19.8,Month 5,Breastfeeding and water
+311,7.5,24.1,Month 5,Breastfeeding and water
+312,8.2,21.5,Month 5,Breastfeeding and water
+313,7.7,21.8,Month 5,Breastfeeding and water
+314,6.5,23,Month 5,Breastfeeding and water
+315,7.1,23.4,Month 5,Breastfeeding and water
+316,7.1,23.4,Month 5,Breastfeeding and water
+317,6.5,23,Month 5,Breastfeeding and water
+318,7.7,21.8,Month 5,Breastfeeding and water
+319,8.2,21.5,Month 5,Breastfeeding and water
+320,7.5,24.1,Month 5,Breastfeeding and water
+321,7.3,19.8,Month 5,Breastfeeding and water
+322,6.6,21.8,Month 5,Breastfeeding and water
+323,6.8,19,Month 5,Breastfeeding and water
+324,7.8,19.2,Month 5,Breastfeeding and water
+325,8.5,18.5,Month 5,Breastfeeding and water
+326,7.1,19,Month 5,Breastfeeding and water
+327,7,22.5,Month 5,Breastfeeding and water
+328,7.2,22.6,Month 5,Breastfeeding and water
+329,7.1,21.8,Month 5,Breastfeeding and water
+330,7.1,22.6,Month 5,Breastfeeding and water
+331,7.5,23,Month 6,Breastfeeding and water
+332,7.5,22.6,Month 6,Breastfeeding and water
+333,7.5,22.8,Month 6,Breastfeeding and water
+334,6.5,23,Month 6,Breastfeeding and water
+335,7.5,19.8,Month 6,Breastfeeding and water
+336,9,19.9,Month 6,Breastfeeding and water
+337,9.5,20,Month 6,Breastfeeding and water
+338,6.5,19.5,Month 6,Breastfeeding and water
+339,7.5,22.5,Month 6,Breastfeeding and water
+340,8,20,Month 6,Breastfeeding and water
+341,7.9,24.8,Month 6,Breastfeeding and water
+342,9.1,21.9,Month 6,Breastfeeding and water
+343,8,22.1,Month 6,Breastfeeding and water
+344,7,24,Month 6,Breastfeeding and water
+345,7.6,24,Month 6,Breastfeeding and water
+346,7.6,24,Month 6,Breastfeeding and water
+347,7,24,Month 6,Breastfeeding and water
+348,8,22.1,Month 6,Breastfeeding and water
+349,9.1,21.9,Month 6,Breastfeeding and water
+350,7.9,24.8,Month 6,Breastfeeding and water
+351,8,20,Month 6,Breastfeeding and water
+352,7.5,22.5,Month 6,Breastfeeding and water
+353,6.5,19.5,Month 6,Breastfeeding and water
+354,9.5,20,Month 6,Breastfeeding and water
+355,9,19.9,Month 6,Breastfeeding and water
+356,7.5,19.8,Month 6,Breastfeeding and water
+357,6.5,23,Month 6,Breastfeeding and water
+358,7.5,22.8,Month 6,Breastfeeding and water
+359,7.5,22.6,Month 6,Breastfeeding and water
+360,7.5,23,Month 6,Breastfeeding and water
+361,4.5,18,Month 1,No Breastfeeding
+362,3.2,18.5,Month 1,No Breastfeeding
+363,5.4,21,Month 1,No Breastfeeding
+364,4.4,21.5,Month 1,No Breastfeeding
+365,4.6,20,Month 1,No Breastfeeding
+366,4.4,20.5,Month 1,No Breastfeeding
+367,4.2,17,Month 1,No Breastfeeding
+368,4.7,17.5,Month 1,No Breastfeeding
+369,4.9,19,Month 1,No Breastfeeding
+370,5,19.5,Month 1,No Breastfeeding
+371,5.1,21.7,Month 1,No Breastfeeding
+372,4.8,21.4,Month 1,No Breastfeeding
+373,5.2,20.8,Month 1,No Breastfeeding
+374,3.2,20.3,Month 1,No Breastfeeding
+375,4.7,18.8,Month 1,No Breastfeeding
+376,4.7,18.8,Month 1,No Breastfeeding
+377,3.2,20.3,Month 1,No Breastfeeding
+378,5.2,20.8,Month 1,No Breastfeeding
+379,4.8,21.4,Month 1,No Breastfeeding
+380,5.1,21.7,Month 1,No Breastfeeding
+381,5,19.5,Month 1,No Breastfeeding
+382,4.9,19,Month 1,No Breastfeeding
+383,4.7,17.5,Month 1,No Breastfeeding
+384,4.2,17,Month 1,No Breastfeeding
+385,4.4,20.5,Month 1,No Breastfeeding
+386,4.6,20,Month 1,No Breastfeeding
+387,4.4,21.5,Month 1,No Breastfeeding
+388,5.4,21,Month 1,No Breastfeeding
+389,3.2,18.5,Month 1,No Breastfeeding
+390,4.5,18,Month 1,No Breastfeeding
+391,4.4,18.5,Month 2,No Breastfeeding
+392,3.5,19.7,Month 2,No Breastfeeding
+393,5.6,21.5,Month 2,No Breastfeeding
+394,5.3,22,Month 2,No Breastfeeding
+395,4.7,21.5,Month 2,No Breastfeeding
+396,5.3,21.7,Month 2,No Breastfeeding
+397,5.2,18.1,Month 2,No Breastfeeding
+398,5.1,18.6,Month 2,No Breastfeeding
+399,5.6,20,Month 2,No Breastfeeding
+400,5.6,20.5,Month 2,No Breastfeeding
+401,4.8,22.8,Month 2,No Breastfeeding
+402,5,22,Month 2,No Breastfeeding
+403,5.9,21.7,Month 2,No Breastfeeding
+404,3.5,20.8,Month 2,No Breastfeeding
+405,5.1,19.8,Month 2,No Breastfeeding
+406,5.1,19.8,Month 2,No Breastfeeding
+407,3.5,20.8,Month 2,No Breastfeeding
+408,5.9,21.7,Month 2,No Breastfeeding
+409,5,22,Month 2,No Breastfeeding
+410,4.8,22.8,Month 2,No Breastfeeding
+411,5.6,20.5,Month 2,No Breastfeeding
+412,5.6,20,Month 2,No Breastfeeding
+413,5.1,18.6,Month 2,No Breastfeeding
+414,5.2,18.1,Month 2,No Breastfeeding
+415,5.3,21.7,Month 2,No Breastfeeding
+416,4.7,21.5,Month 2,No Breastfeeding
+417,5.3,22,Month 2,No Breastfeeding
+418,5.6,21.5,Month 2,No Breastfeeding
+419,3.5,19.7,Month 2,No Breastfeeding
+420,4.4,18.5,Month 2,No Breastfeeding
+421,4.8,19.8,Month 3,No Breastfeeding
+422,4,20.8,Month 3,No Breastfeeding
+423,5.8,22,Month 3,No Breastfeeding
+424,5.8,22.8,Month 3,No Breastfeeding
+425,5.6,22.5,Month 3,No Breastfeeding
+426,5.8,22.8,Month 3,No Breastfeeding
+427,5,19.5,Month 3,No Breastfeeding
+428,5.6,19.7,Month 3,No Breastfeeding
+429,6.2,21.5,Month 3,No Breastfeeding
+430,5.9,21.6,Month 3,No Breastfeeding
+431,5.4,23.5,Month 3,No Breastfeeding
+432,5.5,23.1,Month 3,No Breastfeeding
+433,6.1,22.5,Month 3,No Breastfeeding
+434,4,21.5,Month 3,No Breastfeeding
+435,5.6,20.8,Month 3,No Breastfeeding
+436,5.6,20.8,Month 3,No Breastfeeding
+437,4,21.5,Month 3,No Breastfeeding
+438,6.1,22.5,Month 3,No Breastfeeding
+439,5.5,23.1,Month 3,No Breastfeeding
+440,5.4,23.5,Month 3,No Breastfeeding
+441,5.9,21.6,Month 3,No Breastfeeding
+442,6.2,21.5,Month 3,No Breastfeeding
+443,5.6,19.7,Month 3,No Breastfeeding
+444,5,19.5,Month 3,No Breastfeeding
+445,5.8,22.8,Month 3,No Breastfeeding
+446,5.6,22.5,Month 3,No Breastfeeding
+447,5.8,22.8,Month 3,No Breastfeeding
+448,5.8,22,Month 3,No Breastfeeding
+449,4,20.8,Month 3,No Breastfeeding
+450,4.8,19.8,Month 3,No Breastfeeding
+451,5,20.4,Month 4,No Breastfeeding
+452,4.2,21.7,Month 4,No Breastfeeding
+453,6.1,22.5,Month 4,No Breastfeeding
+454,5.9,23.7,Month 4,No Breastfeeding
+455,5.4,23.5,Month 4,No Breastfeeding
+456,5.9,23.9,Month 4,No Breastfeeding
+457,6.3,20.3,Month 4,No Breastfeeding
+458,5.5,20.8,Month 4,No Breastfeeding
+459,6.2,22.3,Month 4,No Breastfeeding
+460,6.1,22.8,Month 4,No Breastfeeding
+461,4.8,24.3,Month 4,No Breastfeeding
+462,5.3,23.8,Month 4,No Breastfeeding
+463,6.4,23.4,Month 4,No Breastfeeding
+464,4.2,22.7,Month 4,No Breastfeeding
+465,5.5,21.8,Month 4,No Breastfeeding
+466,5.5,21.8,Month 4,No Breastfeeding
+467,4.2,22.7,Month 4,No Breastfeeding
+468,6.4,23.4,Month 4,No Breastfeeding
+469,5.3,23.8,Month 4,No Breastfeeding
+470,4.8,24.3,Month 4,No Breastfeeding
+471,6.1,22.8,Month 4,No Breastfeeding
+472,6.2,22.3,Month 4,No Breastfeeding
+473,5.5,20.8,Month 4,No Breastfeeding
+474,6.3,20.3,Month 4,No Breastfeeding
+475,5.9,23.9,Month 4,No Breastfeeding
+476,5.4,23.5,Month 4,No Breastfeeding
+477,5.9,23.7,Month 4,No Breastfeeding
+478,6.1,22.5,Month 4,No Breastfeeding
+479,4.2,21.7,Month 4,No Breastfeeding
+480,5,20.4,Month 4,No Breastfeeding
+481,4.9,21.9,Month 5,No Breastfeeding
+482,4.1,24.3,Month 5,No Breastfeeding
+483,6.3,23,Month 5,No Breastfeeding
+484,5.8,24,Month 5,No Breastfeeding
+485,4.4,24.3,Month 5,No Breastfeeding
+486,5.8,25.6,Month 5,No Breastfeeding
+487,7,21.7,Month 5,No Breastfeeding
+488,5.7,22.5,Month 5,No Breastfeeding
+489,6.3,23.4,Month 5,No Breastfeeding
+490,6.5,24.7,Month 5,No Breastfeeding
+491,5.7,25.3,Month 5,No Breastfeeding
+492,6.1,24.6,Month 5,No Breastfeeding
+493,6.7,24.7,Month 5,No Breastfeeding
+494,4.1,24.5,Month 5,No Breastfeeding
+495,5.7,23.8,Month 5,No Breastfeeding
+496,5.7,23.8,Month 5,No Breastfeeding
+497,4.1,24.5,Month 5,No Breastfeeding
+498,6.7,24.7,Month 5,No Breastfeeding
+499,6.1,24.6,Month 5,No Breastfeeding
+500,5.7,25.3,Month 5,No Breastfeeding
+501,6.5,24.7,Month 5,No Breastfeeding
+502,6.3,23.4,Month 5,No Breastfeeding
+503,5.7,22.5,Month 5,No Breastfeeding
+504,7,21.7,Month 5,No Breastfeeding
+505,5.8,25.6,Month 5,No Breastfeeding
+506,4.4,24.3,Month 5,No Breastfeeding
+507,5.8,24,Month 5,No Breastfeeding
+508,6.3,23,Month 5,No Breastfeeding
+509,4.1,24.3,Month 5,No Breastfeeding
+510,4.9,21.9,Month 5,No Breastfeeding
+511,5.2,23.8,Month 6,No Breastfeeding
+512,5.3,25,Month 6,No Breastfeeding
+513,6.7,23.5,Month 6,No Breastfeeding
+514,6.2,24.8,Month 6,No Breastfeeding
+515,4.6,25,Month 6,No Breastfeeding
+516,6.2,26.7,Month 6,No Breastfeeding
+517,7.5,22.5,Month 6,No Breastfeeding
+518,6,23.5,Month 6,No Breastfeeding
+519,6.7,24.3,Month 6,No Breastfeeding
+520,6.8,25.8,Month 6,No Breastfeeding
+521,6.8,26,Month 6,No Breastfeeding
+522,6.3,24.8,Month 6,No Breastfeeding
+523,7.2,24.9,Month 6,No Breastfeeding
+524,5.3,25.9,Month 6,No Breastfeeding
+525,6,24.8,Month 6,No Breastfeeding
+526,6,24.8,Month 6,No Breastfeeding
+527,5.3,25.9,Month 6,No Breastfeeding
+528,7.2,24.9,Month 6,No Breastfeeding
+529,6.3,24.8,Month 6,No Breastfeeding
+530,6.8,26,Month 6,No Breastfeeding
+531,6.8,25.8,Month 6,No Breastfeeding
+532,6.7,24.3,Month 6,No Breastfeeding
+533,6,23.5,Month 6,No Breastfeeding
+534,7.5,22.5,Month 6,No Breastfeeding
+535,6.2,26.7,Month 6,No Breastfeeding
+536,4.6,25,Month 6,No Breastfeeding
+537,6.2,24.8,Month 6,No Breastfeeding
+538,6.7,23.5,Month 6,No Breastfeeding
+539,5.3,25,Month 6,No Breastfeeding
+540,5.2,23.8,Month 6,No Breastfeeding
+541,4.6,18.3,Month 1,Partial Breastfeeding
+542,4.5,15.8,Month 1,Partial Breastfeeding
+543,5,16.9,Month 1,Partial Breastfeeding
+544,5.5,17.5,Month 1,Partial Breastfeeding
+545,4.3,17,Month 1,Partial Breastfeeding
+546,4.6,18.5,Month 1,Partial Breastfeeding
+547,3.5,19,Month 1,Partial Breastfeeding
+548,2.3,19.5,Month 1,Partial Breastfeeding
+549,5,15.5,Month 1,Partial Breastfeeding
+550,5.8,15,Month 1,Partial Breastfeeding
+551,4,20,Month 1,Partial Breastfeeding
+552,3.4,20.5,Month 1,Partial Breastfeeding
+553,4.2,16.5,Month 1,Partial Breastfeeding
+554,4.5,17,Month 1,Partial Breastfeeding
+555,5.5,18.5,Month 1,Partial Breastfeeding
+556,5.5,18.5,Month 1,Partial Breastfeeding
+557,4.5,17,Month 1,Partial Breastfeeding
+558,4.2,16.5,Month 1,Partial Breastfeeding
+559,3.4,20.5,Month 1,Partial Breastfeeding
+560,4,20,Month 1,Partial Breastfeeding
+561,5.8,15,Month 1,Partial Breastfeeding
+562,5,15.5,Month 1,Partial Breastfeeding
+563,2.3,19.5,Month 1,Partial Breastfeeding
+564,3.5,19,Month 1,Partial Breastfeeding
+565,4.6,18.5,Month 1,Partial Breastfeeding
+566,4.3,17,Month 1,Partial Breastfeeding
+567,5.5,17.5,Month 1,Partial Breastfeeding
+568,5,16.9,Month 1,Partial Breastfeeding
+569,4.5,15.8,Month 1,Partial Breastfeeding
+570,4.6,18.3,Month 1,Partial Breastfeeding
+571,6,19.5,Month 2,Partial Breastfeeding
+572,5.7,17,Month 2,Partial Breastfeeding
+573,6.2,17.5,Month 2,Partial Breastfeeding
+574,6,18.5,Month 2,Partial Breastfeeding
+575,5.3,17.5,Month 2,Partial Breastfeeding
+576,5.4,19,Month 2,Partial Breastfeeding
+577,4.4,20,Month 2,Partial Breastfeeding
+578,4.2,20.5,Month 2,Partial Breastfeeding
+579,6.5,16.5,Month 2,Partial Breastfeeding
+580,6.2,16,Month 2,Partial Breastfeeding
+581,3.8,21,Month 2,Partial Breastfeeding
+582,5.3,21.5,Month 2,Partial Breastfeeding
+583,6,17,Month 2,Partial Breastfeeding
+584,4.4,17.5,Month 2,Partial Breastfeeding
+585,6,19,Month 2,Partial Breastfeeding
+586,6,19,Month 2,Partial Breastfeeding
+587,4.4,17.5,Month 2,Partial Breastfeeding
+588,6,17,Month 2,Partial Breastfeeding
+589,5.3,21.5,Month 2,Partial Breastfeeding
+590,3.8,21,Month 2,Partial Breastfeeding
+591,6.2,16,Month 2,Partial Breastfeeding
+592,6.5,16.5,Month 2,Partial Breastfeeding
+593,4.2,20.5,Month 2,Partial Breastfeeding
+594,4.4,20,Month 2,Partial Breastfeeding
+595,5.4,19,Month 2,Partial Breastfeeding
+596,5.3,17.5,Month 2,Partial Breastfeeding
+597,6,18.5,Month 2,Partial Breastfeeding
+598,6.2,17.5,Month 2,Partial Breastfeeding
+599,5.7,17,Month 2,Partial Breastfeeding
+600,6,19.5,Month 2,Partial Breastfeeding
+601,6.9,21.7,Month 3,Partial Breastfeeding
+602,6.4,18.2,Month 3,Partial Breastfeeding
+603,6.9,19.1,Month 3,Partial Breastfeeding
+604,7.5,19.8,Month 3,Partial Breastfeeding
+605,6,18.5,Month 3,Partial Breastfeeding
+606,5.5,20.1,Month 3,Partial Breastfeeding
+607,5,21.7,Month 3,Partial Breastfeeding
+608,4.8,21.8,Month 3,Partial Breastfeeding
+609,6.8,17.3,Month 3,Partial Breastfeeding
+610,7.5,17,Month 3,Partial Breastfeeding
+611,4.6,21.8,Month 3,Partial Breastfeeding
+612,4.9,22.3,Month 3,Partial Breastfeeding
+613,5.8,17.5,Month 3,Partial Breastfeeding
+614,4.8,18.5,Month 3,Partial Breastfeeding
+615,5.5,19.9,Month 3,Partial Breastfeeding
+616,5.5,19.9,Month 3,Partial Breastfeeding
+617,4.8,18.5,Month 3,Partial Breastfeeding
+618,5.8,17.5,Month 3,Partial Breastfeeding
+619,4.9,22.3,Month 3,Partial Breastfeeding
+620,4.6,21.8,Month 3,Partial Breastfeeding
+621,7.5,17,Month 3,Partial Breastfeeding
+622,6.8,17.3,Month 3,Partial Breastfeeding
+623,4.8,21.8,Month 3,Partial Breastfeeding
+624,5,21.7,Month 3,Partial Breastfeeding
+625,5.5,20.1,Month 3,Partial Breastfeeding
+626,6,18.5,Month 3,Partial Breastfeeding
+627,7.5,19.8,Month 3,Partial Breastfeeding
+628,6.9,19.1,Month 3,Partial Breastfeeding
+629,6.4,18.2,Month 3,Partial Breastfeeding
+630,6.9,21.7,Month 3,Partial Breastfeeding
+631,6.5,22.5,Month 4,Partial Breastfeeding
+632,6.4,19,Month 4,Partial Breastfeeding
+633,7.6,19.5,Month 4,Partial Breastfeeding
+634,8,20,Month 4,Partial Breastfeeding
+635,7.2,19,Month 4,Partial Breastfeeding
+636,6.4,20.7,Month 4,Partial Breastfeeding
+637,6,22,Month 4,Partial Breastfeeding
+638,5.2,22.1,Month 4,Partial Breastfeeding
+639,7.5,17.9,Month 4,Partial Breastfeeding
+640,7.8,17.5,Month 4,Partial Breastfeeding
+641,5.5,22.3,Month 4,Partial Breastfeeding
+642,5.5,23,Month 4,Partial Breastfeeding
+643,6.2,18,Month 4,Partial Breastfeeding
+644,5,19,Month 4,Partial Breastfeeding
+645,5.5,20.7,Month 4,Partial Breastfeeding
+646,5.5,20.7,Month 4,Partial Breastfeeding
+647,5,19,Month 4,Partial Breastfeeding
+648,6.2,18,Month 4,Partial Breastfeeding
+649,5.5,23,Month 4,Partial Breastfeeding
+650,5.5,22.3,Month 4,Partial Breastfeeding
+651,7.8,17.5,Month 4,Partial Breastfeeding
+652,7.5,17.9,Month 4,Partial Breastfeeding
+653,5.2,22.1,Month 4,Partial Breastfeeding
+654,6,22,Month 4,Partial Breastfeeding
+655,6.4,20.7,Month 4,Partial Breastfeeding
+656,7.2,19,Month 4,Partial Breastfeeding
+657,8,20,Month 4,Partial Breastfeeding
+658,7.6,19.5,Month 4,Partial Breastfeeding
+659,6.4,19,Month 4,Partial Breastfeeding
+660,6.5,22.5,Month 4,Partial Breastfeeding
+661,7,23,Month 5,Partial Breastfeeding
+662,7,19.5,Month 5,Partial Breastfeeding
+663,8.1,19.8,Month 5,Partial Breastfeeding
+664,9.5,20.8,Month 5,Partial Breastfeeding
+665,8,19.5,Month 5,Partial Breastfeeding
+666,6.8,20.9,Month 5,Partial Breastfeeding
+667,7.2,22.8,Month 5,Partial Breastfeeding
+668,5,22.9,Month 5,Partial Breastfeeding
+669,8.1,18.3,Month 5,Partial Breastfeeding
+670,8.3,17.9,Month 5,Partial Breastfeeding
+671,6.2,22.9,Month 5,Partial Breastfeeding
+672,6,23.4,Month 5,Partial Breastfeeding
+673,7,18.5,Month 5,Partial Breastfeeding
+674,4.9,19.5,Month 5,Partial Breastfeeding
+675,6.7,21.5,Month 5,Partial Breastfeeding
+676,6.7,21.5,Month 5,Partial Breastfeeding
+677,4.9,19.5,Month 5,Partial Breastfeeding
+678,7,18.5,Month 5,Partial Breastfeeding
+679,6,23.4,Month 5,Partial Breastfeeding
+680,6.2,22.9,Month 5,Partial Breastfeeding
+681,8.3,17.9,Month 5,Partial Breastfeeding
+682,8.1,18.3,Month 5,Partial Breastfeeding
+683,5,22.9,Month 5,Partial Breastfeeding
+684,7.2,22.8,Month 5,Partial Breastfeeding
+685,6.8,20.9,Month 5,Partial Breastfeeding
+686,8,19.5,Month 5,Partial Breastfeeding
+687,9.5,20.8,Month 5,Partial Breastfeeding
+688,8.1,19.8,Month 5,Partial Breastfeeding
+689,7,19.5,Month 5,Partial Breastfeeding
+690,7,23,Month 5,Partial Breastfeeding
+691,7.5,23.5,Month 6,Partial Breastfeeding
+692,7.5,19.8,Month 6,Partial Breastfeeding
+693,9.2,20,Month 6,Partial Breastfeeding
+694,11.2,21.3,Month 6,Partial Breastfeeding
+695,8.6,19.9,Month 6,Partial Breastfeeding
+696,8.5,21,Month 6,Partial Breastfeeding
+697,7.5,23,Month 6,Partial Breastfeeding
+698,6.2,23.4,Month 6,Partial Breastfeeding
+699,8.6,18.8,Month 6,Partial Breastfeeding
+700,9.5,18.5,Month 6,Partial Breastfeeding
+701,5.4,23.5,Month 6,Partial Breastfeeding
+702,5.9,23.8,Month 6,Partial Breastfeeding
+703,7.5,19,Month 6,Partial Breastfeeding
+704,5.2,20,Month 6,Partial Breastfeeding
+705,7.9,22,Month 6,Partial Breastfeeding
+706,7.9,22,Month 6,Partial Breastfeeding
+707,5.2,20,Month 6,Partial Breastfeeding
+708,7.5,19,Month 6,Partial Breastfeeding
+709,5.9,23.8,Month 6,Partial Breastfeeding
+710,5.4,23.5,Month 6,Partial Breastfeeding
+711,9.5,18.5,Month 6,Partial Breastfeeding
+712,8.6,18.8,Month 6,Partial Breastfeeding
+713,6.2,23.4,Month 6,Partial Breastfeeding
+714,7.5,23,Month 6,Partial Breastfeeding
+715,8.5,21,Month 6,Partial Breastfeeding
+716,8.6,19.9,Month 6,Partial Breastfeeding
+717,11.2,21.3,Month 6,Partial Breastfeeding
+718,9.2,20,Month 6,Partial Breastfeeding
+719,7.5,19.8,Month 6,Partial Breastfeeding
+720,7.5,23.5,Month 6,Partial Breastfeeding
